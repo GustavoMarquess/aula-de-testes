@@ -1,0 +1,19 @@
+{
+    "presets": [
+        [
+            //utilizar as ferramentas recentes do JS
+            "@babel/preset-env",{
+              "targets":{
+                "esmodules":true
+                }
+            }
+        ],
+        [
+            //Habilitar o suporte ao react
+            "@babel/preset-react",{
+                "runtime":"automatic"
+            }
+        ],
+        "@babel/preset-typescript"
+    ]
+}
